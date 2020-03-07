@@ -1,0 +1,87 @@
+<html>
+        <link rel = "stylesheet"
+        type = "text/css"
+        href = "booking.css" />
+      </head>
+<body>
+
+
+<form>
+<div class = "fly-row">
+  <label>Flying from</label>
+  <br>
+  <select id="flying" >
+    <option value="Bangkok">Bangkok</option>
+    <option value="Chiang Mai">Chiang Mai</option>
+    <option value="Surin">Surin</option>
+    <option value="Phuket">Phuket</option>
+  </select>
+</div>
+<div class = "to-row">
+  <label> To</label>
+  <br>
+  <select id="To" >
+    <option value="Bangkok">Bangkok</option>
+    <option value="Chiang Mai">Chiang Mai</option>
+    <option value="Surin">Surin</option>
+    <option value="Phuket">Phuket</option>
+  </select>
+</div>
+
+
+    <div class = "fly-row">
+      <label >Departing</label>
+        <input type="text" id="departing" name="departing" required="" placeholder="mm/dd/yyyy">
+         </div>
+     
+    <div class = "to-row">
+      <label>Return To</label>
+      <label for="Return" class="field prepend-icon">
+        <input type="text" id="Return" name="Return"  required="" placeholder="mm/dd/yyyy">
+        </div>
+ 
+
+  <div class = "fly-row">
+    <label>Adult</label>
+             <select id = "Adult">
+                <option value = "0">0</option>
+                <option value = "1">1</option>
+                <option value = "2">2</option>
+                <option value = "3">3</option>
+             </select>
+  </div>
+  <div class = "fly-row">
+    <label>Child</label>
+             <select id = "Child">
+                <option value = "0">0</option>
+                <option value = "1">1</option>
+                <option value = "2">2</option>
+                <option value = "3">3</option>
+             </select>
+  </div>
+  <div class = "to-row">
+    <label>Infant</label>
+             <select id = "Infant">
+                <option value = "0">0</option>
+                <option value = "1">1</option>
+                <option value = "2">2</option>
+                <option value = "3">3</option>
+             </select>
+  </div>
+  <div class = "to-row"> 
+    <label>Currency</label>
+             <select id = "Currency">
+                <option value = "THB">THB</option>
+                <option value = "US">US</option>
+                
+             </select>
+  </div>
+   
+  <br>
+  <input type="submit" value="Search">
+</form>
+
+</body>
+</html>
+
+ 
