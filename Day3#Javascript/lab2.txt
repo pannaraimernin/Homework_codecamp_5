@@ -1,0 +1,5 @@
+จำนวนเงินในกระเป๋าตัง = pocketMoney
+พ่อ = Dad
+แม่ = Mom
+ที่อยู่ของบ้าน = address
+อายุของจักรวาล = universOld
