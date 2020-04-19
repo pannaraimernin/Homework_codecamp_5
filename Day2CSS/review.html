@@ -1,0 +1,115 @@
+<style>
+    table, th, td {
+      border: 1px solid black;
+      border-collapse: collapse;
+    }
+    </style>
+<table style="width:100%">
+    <tr>
+    <th>CSS syntax</th>
+    <th>CSS writing</th>
+    <th>selector</th>
+    <th>combination</th>
+</tr>
+<tr>
+    <td>1. selector</td>
+    <td>1. Inline CSS</td>
+    <td>1. ID</td>
+    <td>1. descendant selector(space)</td>
+   
+</tr>
+<tr>
+    <td>2. Decolation</td>
+    <td>2. External CSS</td>
+    <td>2. Class</td>
+    <td>2. child selector</td>
+</tr>
+<tr>
+    <td> 2.1 Propoty <br>
+        2.2 Value </td>
+    <td>3. Internal CSS</td>
+    <td>3. Pseudo element</td>
+    <td>3. adjacent sibling</td>
+   
+</tr>
+<tr>
+    <td></td>
+    <td></td>
+    <td>4.Pseudo class</td>
+    <td>4. general sibling selector</td>
+</tr>
+<tr>
+    <td></td>
+    <td></td>
+    <td>5.Attribute select</td>
+</tr>
+</table>
+
+<h1>For example CSS syntax </h1>
+<p>ID คือ การกำหนดชื่อ element โดยมีแค่ Element เดียวเท่านั้น</p>
+
+<h2>For example CSS writing</h2>
+<u><p>Inline Style</p></u>
+<xmp> <h1 style="color:blue;text-align:center;">This is a heading</h1> </xmp>
+
+<u><p>External CSS</p></u>
+ <p>File.css</p>
+ <xmp>h1 {
+    color: navy;
+    margin-left: 20px;
+  }</xmp>
+
+  <u><p>Internal CSS</p></u>
+  <xmp>
+    <html>
+    <style>
+
+    h1 {
+      color: maroon;
+      margin-left: 40px;
+    } 
+    </style>
+    </html>
+    </xmp>
+
+    <h3>For example selector</h3>
+    <xmp><html>
+
+<style>
+p.center {
+  text-align: center;
+  color: red;
+}
+</style>
+
+
+<h1 class="center">This heading will not be affected</h1>
+<p class="center">This paragraph will be red and center-aligned.</p> 
+
+</html></xmp>
+
+<h4>For example combination</h4>
+<u>Decendant</u>
+<xmp><html>
+        
+        <style>
+        div p {
+          background-color: yellow;
+        }
+        </style>
+        
+        
+        
+        <div>
+          <p>Paragraph 1 in the div.</p>
+          <p>Paragraph 2 in the div.</p>
+          <section><p>Paragraph 3 in the div.</p></section>
+        </div>
+        
+        <p>Paragraph 4. Not in a div.</p>
+        <p>Paragraph 5. Not in a div.</p>
+        
+        
+        </html>
+        
+        </xmp>
