@@ -1,0 +1,61 @@
+.container {
+    display: grid;
+    text-align: center;
+    grid-template-rows: [header-start] 1fr [header-end manu-start]1fr [menu-end main-start] 3fr [main-end];
+    grid-template-columns: [gender-start] 1fr [gender-end catagory-start] 3fr [catagory-end];
+    grid-template-areas: "header header"
+                            "gender catagory"
+                            "main main";
+  
+  font-weight: bold;
+  text-align: center;
+}
+.container > * {
+    padding: 20px;
+    
+  }
+
+.header {
+    
+    grid-column: gender-start/catagory-end;
+   
+    
+}
+.tab {
+    font-size: 150%;
+    border-style: solid;
+    border-width: 1px 1px;
+    align-content: center;
+    padding:20px 50px 20px;
+    margin: 0 auto;
+    width: 100%; 
+    border-color: rgb(206, 202, 202)
+    
+}
+.main {grid-column :gender-start/catagory-end;
+   
+    grid-area: main;
+    
+    
+   
+    
+}
+img.main{
+    width:100%;height:500px;}
+.gender {
+
+    grid-area: gender;
+   
+    
+}
+.catagory{
+    
+    grid-area: catagory;
+    
+}
+    
+
+   
+
+
+   
